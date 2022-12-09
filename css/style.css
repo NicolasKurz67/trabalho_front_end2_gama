@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 html,body {
@@ -67,6 +66,10 @@ header {
 
 .cabecalho_icones div {
     background-color: transparent;
+}
+
+.invisivel{
+    display: all;
 }
 
 /* ******************************************** */
@@ -174,5 +177,22 @@ header {
 
 .coluna p {
     height: 20%;
-    background-color: ;
+}
+
+@media screen and (max-width: 700px) {
+    .invisivel {
+        display: none;
+    }
+
+    header {
+        height: 6rem;
+    }
+
+    .cabecalho_img img {
+        width: 10rem;
+    }
+
+    .cabecalho_icones img {
+        width: 60px;
+    }
 }
