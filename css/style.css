@@ -69,10 +69,12 @@ header {
     background-color: transparent;
 }
 
+/* ******************************************** */
+
 .bloco-principal {
     height: 1320px;
     width: 100%;
-    padding: 1.25rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     background-color: green;
@@ -106,4 +108,40 @@ header {
     height: 47.5%;
     width: 100%;
     background-color: blueviolet;
+}
+
+.bloco-base {
+    margin-top: 2rem;
+    height: 764px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.retangulo-principal-esquerdo {
+    height: 100%;
+    width: 15%;
+    background-color: black;
+}
+
+.retangulo-principal-direito {
+    height: 100%;
+    width: 80%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bloco-texto {
+    height: 20%;
+    width: 100%;
+    background-color: darkmagenta;
+}
+
+.bloco-conteudo {
+    height: 75%;
+    width: 100%;
+    background-color: skyblue;
 }
