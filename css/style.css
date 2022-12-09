@@ -113,6 +113,8 @@ header {
     background-color: blueviolet;
 }
 
+/* ******************************************** */
+
 .bloco-base {
     margin-top: 2rem;
     height: 764px;
@@ -180,6 +182,7 @@ header {
 }
 
 @media screen and (max-width: 700px) {
+    
     .invisivel {
         display: none;
     }
@@ -220,5 +223,43 @@ header {
         height: 100%;
         width: 47.5%;
     }
+
+    /* ******************************************** */
+
+    .bloco-base {
+        height: 764px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .retangulo-principal-direito {
+        width: 100%;
+    }
     
+    .bloco-texto {
+        height: 20%;
+        width: 100%;
+        background-color: darkmagenta;
+    }
+    
+    .bloco-conteudo {
+        height: 75%;
+        width: 100%;
+        background-color: skyblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .coluna {
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .bloco-1, .bloco-2 {
+        height: 47.5%;
+        width: 47.5%;
+    }    
 }
