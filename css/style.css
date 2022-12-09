@@ -195,4 +195,30 @@ header {
     .cabecalho_icones img {
         width: 60px;
     }
+
+    /* ******************************************** */
+
+    .bloco-topo {
+        flex-direction: column;
+    }
+
+    .quadrado-esquerdo {
+        height: 65%;
+        width: 100%;
+    }
+    
+    .quadrado-direito {
+        height: 30%;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .retangulo-topo-quadrado-direito, .retangulo-baixo-quadrado-direito {
+        height: 100%;
+        width: 47.5%;
+    }
+    
 }
