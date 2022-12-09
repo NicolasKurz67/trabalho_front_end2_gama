@@ -144,4 +144,35 @@ header {
     height: 75%;
     width: 100%;
     background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coluna {
+    height: 100%;
+    width: 30%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bloco-1, .bloco-2 {
+    height: 47.5%;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coluna img {
+    height: 75%;
+    width: 100%;
+}
+
+.coluna p {
+    height: 20%;
+    background-color: ;
 }
