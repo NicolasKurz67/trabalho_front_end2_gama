@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 6rem;
+    width: 100%;
+}
+
+.cabecalho_principal {
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho_img {
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cabecalho_img a {
+    display: flex;
+    border-radius: 50%;
+}
+
+.cabecalho_img img {
+    height: 10rem;
+    width: 15rem;
+}
+
+.cabecalho_img p {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cabecalho_icones {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: end;
+}
+
+.cabecalho_icones img {
+    height: 100%;
+    width: 80px;
+    margin: 0 2rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+}
+
+.cabecalho_icones div {
+    background-color: transparent;
+}
+
+.container-principal {
+    height: 1320px;
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_rectangle {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.rectangle_cabecalho {
+    height: 100%;
+    width: 100%;
+}
+
+.rectangle-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle-content img {
+    width: 20rem;
+    border: 1px solid black;
+}
+
+.container-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-left {
+    height: 100%;
+    width: 25%;
+    margin-right: 1rem;
+}
+
+.container-content-rectangle {
+    height: 100%;
+    width: 100%;
+    background: transparent url('../img/logo.png') no-repeat center;
+    margin-left: 20px;
+    background-size: cover;
+}
+
+.container-right {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bloco-content-top {
+    height: 42%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.bloco-esquerdo, .bloco-direito {
+    height: 100%;
+    width: 49%;
+}
+
+.bloco-esquerdo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.bloco-esquerdo p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    text-align: justify;
+    background-color: transparent;
+}
+
+.bloco-esquerdo ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco-esquerdo li {
+    display: flex;
+    align-items: center;
+}
+
+.bloco-esquerdo span {
+    margin: 0 1rem;
+}
+
+.bloco-direito img{
+    height: 100%;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.bloco-content-down {
+    height: 57%;
+    width: 100%;
+}
+
+.grid-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartao-content {
+    margin: 0.1rem 0;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.cartao-content img {
+    height: 100%;
+    width: 22%;
+    border: 1px solid black;
+}
+
+.cartao-content-text {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao-content-text ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao-content-text li {
+    display: flex;
+    align-items: center;
+}
+
+.cartao-content-text span {
+    margin: 0 1rem;
+}
+
+.cartao-content-text p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: justify;
+    background-color: transparent;
+    margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    .invisible {
+        display: none;
+    }
+
+    .visible {
+        display: all;
+    }
+
+    .cabecalho_img {
+        height: 100%;
+        width: 70%;
+    }
+
+    .cabecalho_img p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .rectangle_cabecalho {
+        background-color: transparent;
+    }
+
+    .rectangle-content {
+        background-color: transparent;
+    }
+
+    .rectangle-content img {
+        height: 100px;
+        width: 150px;
+    }
+
+    .container-principal {
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .container-content {
+        height: 90rem;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    .container-right {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    .bloco-content-top {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .bloco-esquerdo, .bloco-direito {
+        width: 100%;
+        background-color: transparent;
+    }
+    
+    .bloco-esquerdo {
+        height: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .bloco-esquerdo p {
+        margin: 1rem 0;
+        font-size: normal;
+        text-align: justify;
+        background-color: transparent;
+    }
+
+    .bloco-direito {
+        height: 55%;
+    }
+
+    .bloco-direito img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .bloco-content-down {
+        height: 50%;
+        width: 100%;
+        background-color:transparent;
+    }
+
+    .grid-content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    
+    .cartao-content {
+        margin: 0;
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cartao-content img {
+        height: 100%;
+        width: 30%;
+    }
+    
+    .cartao-content-text {
+        height: 100%;
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+    
+    .cartao-content-text, .cartao-content-text p, .cartao-content-text span, .cartao-content-text ul, .cartao-content-text li {
+        font-size: 14px;
+        background-color: transparent;
+        text-align: justify;
+    }
+}
