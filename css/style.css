@@ -69,3 +69,41 @@ header {
     background-color: transparent;
 }
 
+.bloco-principal {
+    height: 1320px;
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+
+.bloco-topo {
+    height: 412px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quadrado-esquerdo {
+    height: 100%;
+    width: 75%;
+    background-color: gray;
+}
+
+.quadrado-direito {
+    height: 100%;
+    width: 20%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.retangulo-topo-quadrado-direito, .retangulo-baixo-quadrado-direito {
+    height: 47.5%;
+    width: 100%;
+    background-color: blueviolet;
+}
